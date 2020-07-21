@@ -11,7 +11,12 @@ body {
    display: flex;
    justify-content: center;
     }
-
+#contenu {
+ /* Ce conteneur doit avoir un positionnement absolu */
+ position: absolute;
+ /* En fixant la distance avec le bas à 0, on force le contenu à être aligné vers le bas */
+ bottom: 0;
+}
 
 img {
   width: 100vw;
